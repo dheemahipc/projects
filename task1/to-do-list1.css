@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    background-image: url('./to-do-list1.jpeg');
+    background-size:2300px 1190px;
+}
+
+ .tag1{
+    width:100%;
+    margin: 10em auto;
+    max-width: 30rem;
+    padding: 2em;
+    margin-right: 900px;
+    margin-top: 650px;
+} 
+
+.tag1 .tag2{
+    font-size: 50px;
+    font-weight: 600;
+    color:  #1c4a59;
+}
+
+.tag1 .tag4{
+    display: flex;
+    width: 100%;
+    height: 3.5em;
+    margin: 1.5em 0;
+}
+
+
+.tag4 input{
+    width: 1000px;
+    height: 100%;
+    border: .1em solid #ccc;
+    font-size: 30px;
+    border-radius: .2em;
+    padding-left: 1px;
+    outline: none;
+    background-color: rgba(255, 0, 0, 0.005);
+    font-family: Comic Sans MS;
+    color: #1c4a59;
+}
+
+
+.tag4 button{
+    width: 3em;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #1c4a59;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: .2em;
+    margin-left: 5px;
+    margin-top: 20px;
+    opacity: 0.6;
+    pointer-events: none;
+    background-color: rgba(255, 0, 0, 0.005);
+}
+
+
+.tag4 button.active{
+    opacity: 1;
+    pointer-events: auto;
+    font-size: 1.5em;
+}
+
+.tag4 button:hover{
+    background-color: #1c4a59;
+    color: white;
+}
+
+.tag3 li{
+    position: relative;
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    background: #80808033;
+    border-radius: .2em;
+    margin-bottom: .5em;
+    padding: 0 1em;
+    cursor: pointer;
+    overflow: hidden;
+    font-family:Comic Sans MS ;
+    color: #1c4a59;
+}
+
+.tag3 li span{
+    position: absolute;
+    right: -35em;
+    width: 3em;
+    color: #fff;
+    background-color: #1c4a59;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.tag3 li:hover span{
+    right: 0;
+}
+
+
+.tag5 button{
+    border: none;
+    outline: none;
+    color:  #1c4a59;
+    font-size: 1.7em;
+    cursor: pointer;
+    border-radius: .2em;
+    margin-top: 1em;
+    padding: .3em 1.1em;
+    font-family: Comic Sans MS;
+    background-color: rgba(255, 0, 0, 0.005);
+}
+.tag5 button:hover{
+    background-color:#1c4a59;
+    color: white;
+}
